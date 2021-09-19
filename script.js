@@ -7,29 +7,21 @@ let title,
   fullPrice,
   adaptive
 
-alert("Как называется ваш проект?")
-title = prompt()
+title = prompt("Как называется ваш проект?")
 
-alert("Какие типы экранов нужно разработать? (пример: \"Простые, Сложные, Интерактивные\")")
-screens = prompt()
+screens = prompt("Какие типы экранов нужно разработать? (пример: \"Простые, Сложные, Интерактивные\")")
 
-alert("Сколько будет стоить данная работа?")
-screenPrice = prompt()
+screenPrice = prompt("Сколько будет стоить данная работа?")
 
-alert("Нужен ли адаптив на сайте? (true/false)")
-adaptive = prompt()
+adaptive = prompt("Нужен ли адаптив на сайте? (true/false)")
 
-alert("Какой дополнительный тип услуги нужен")
-let service1 = prompt()
+let service1 = prompt("Какой дополнительный тип услуги нужен")
 
-alert("Сколько это будет стоить")
-let servicePrice1 = prompt()
+let servicePrice1 = prompt("Сколько это будет стоить")
 
-alert("Какой дополнительный тип услуги нужен")
-let service2 = prompt()
+let service2 = prompt("Какой дополнительный тип услуги нужен")
 
-alert("Сколько это будет стоить")
-let servicePrice2 = prompt()
+let servicePrice2 = prompt("Сколько это будет стоить")
 
 fullPrice = screenPrice + servicePrice1 + servicePrice2;
 
